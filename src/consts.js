@@ -12,7 +12,8 @@ export const COMMANDS = {
     OS: 'os',
     HASH: 'hash',
     COMPRESS: 'compress',
-    DECOMPRESS: 'decompress'
+    DECOMPRESS: 'decompress',
+    EXIT: '.exit'
 };
 
 export const OS_ARGV = {

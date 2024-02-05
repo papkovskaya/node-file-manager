@@ -25,6 +25,10 @@ process.stdin.on("data", async (data) => {
     const commandInfo = getCommandsInfo(data);
 
     switch(commandInfo[0]) {
+        case COMMANDS.EXIT:
+            console.log(endingMessage);
+            process.exit();
+            break;
         case COMMANDS.INFO:
             showAllCommands();
             break;
